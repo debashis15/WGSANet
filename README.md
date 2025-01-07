@@ -1,38 +1,85 @@
-# WGSANet
-WGSANet: Wavelet-Gradient Synergistic Attentive Fusion Network
+# WGSANet: Wavelet-Gradient Synergistic Attentive Fusion Network
 
-Welcome to the official repository for WGSANet, a novel image denoising model that integrates Wavelet-Gradient Synergistic Attentive Fusion to achieve superior denoising performance.
+Welcome to the official repository for **WGSANet**, an innovative image denoising model that combines **Wavelet-Gradient Synergistic Attentive Fusion** to deliver state-of-the-art denoising performance.
 
-Abstract
-Image denoising remains a critical challenge in computer vision, with applications spanning medical imaging, remote sensing, and photography. Despite significant progress in deep learning, current convolutional neural networks (CNNs) still face training complexities due to increased network depth and neglect important gradient information. Moreover, existing approaches have not fully explored the potential of wavelet-domain feature extraction in image denoising.
+---
 
-This study addresses these limitations with WGSANet, a pioneering wavelet-gradient synergistic attentive fusion network. WGSANet integrates two distinct pathways:
+## 🌟 Abstract
 
-A Wavelet-Domain Processing Pipeline (WDP) that utilizes discrete wavelet transform (DWT) for multi-level decomposition, enhanced by a Multi-Scale Attention Aggregator Block (MSAAB) to process high-frequency sub-band features.
-A Gradient-Based Processing Pipeline (GBPP) that captures image gradients from multiple directions to improve edge preservation and detail retention.
-WGSANet achieves outstanding denoising results, outperforming existing methods across multiple datasets. Ablation studies reveal the critical contributions of each component, showcasing the novel synergy between wavelet and gradient-based features.
+Image denoising is a fundamental task in computer vision with significant applications, including:
 
-The source code and further details are available in the repository.
-🔗 https://github.com/debashis15/WGSANet
+- Medical imaging
+- Remote sensing
+- Photography
 
-Keywords: Computer vision · Deep learning · Image denoising · Wavelet domain · Gradient information · Attention mechanisms
+Despite recent advancements in deep learning, key challenges persist:
 
-Publication
-This work has been submitted to Pattern Recognition for publication. The corresponding paper offers a detailed explanation of the architecture, methodology, and performance evaluation. The code will be released upon acceptance.
+1. **Training Complexity**: Many CNN-based denoisers rely on increasing network depth, which introduces training difficulties.  
+2. **Gradient Neglect**: The role of gradient information in preserving edges and fine details remains underutilized.  
+3. **Limited Wavelet Usage**: Existing models often fail to leverage wavelet-domain features effectively.
 
-Code and Data
-The code and datasets used in this study will be released soon after the paper's acceptance. Stay tuned for updates!
+### Introducing **WGSANet**
+**WGSANet**, or **Wavelet-Gradient Synergistic Attentive Fusion Network**, addresses these limitations by combining wavelet-domain and gradient-domain features through two distinct processing pipelines:
 
-Results and Metrics
-If you require results, metric values, or further information, please contact the corresponding author:
+- **Wavelet-Domain Processing Pipeline (WDP)**:  
+  Utilizes discrete wavelet transform (DWT) for multi-level decomposition, enhanced by a **Multi-Scale Attention Aggregator Block (MSAAB)** to process high-frequency sub-band features.  
+- **Gradient-Based Processing Pipeline (GBPP)**:  
+  Captures image gradients from multiple directions, ensuring superior edge preservation and detail retention.
 
-Debashis Das
-Email 1: ddebashisdas2108@gmail.com
-Email 2: debashis_2221cs31@iitp.ac.in
-Citation
-If you find this work useful, please consider citing our paper upon its publication in Pattern Recognition (citation details will be added soon).
+**WGSANet** achieves remarkable denoising results, surpassing existing methods across multiple datasets. Comprehensive ablation studies validate the synergistic effectiveness of wavelet and gradient-based features.
 
-Contact
-For any further queries, feedback, or collaborations, feel free to contact Debashis Das using the emails provided above.
+---
 
-Thank you for your interest in WGSANet!
+## 🔬 Key Contributions
+
+- **Wavelet-Gradient Synergy**: Leverages complementary wavelet and gradient features for enhanced denoising.  
+- **Attention-Driven Design**: Employs multi-scale attention mechanisms to focus on noise-affected regions.  
+- **State-of-the-Art Performance**: Outperforms leading denoisers on standard benchmark datasets.  
+- **Ablation Studies**: Highlights the individual contributions of each network component.  
+
+---
+
+## 📰 Publication
+
+This work has been **submitted to Pattern Recognition** for publication. Updates regarding the paper's status will be provided here.  
+The paper offers a comprehensive explanation of the architecture, methodology, and performance evaluation.
+
+---
+
+## 📂 Code and Data
+
+The **source code** and **datasets** will be released after the paper's acceptance. Stay tuned by starring this repository ⭐!  
+
+---
+
+## 📊 Results and Metrics
+
+**WGSANet** demonstrates outstanding performance in terms of both quantitative metrics and visual quality. For specific results or further information, please contact the corresponding author.
+
+---
+
+## ✉️ Contact
+
+For queries, collaborations, or additional information, feel free to reach out:
+
+- **Debashis Das**  
+  - Email 1: [ddebashisdas2108@gmail.com](mailto:ddebashisdas2108@gmail.com)  
+  - Email 2: [debashis_2221cs31@iitp.ac.in](mailto:debashis_2221cs31@iitp.ac.in)  
+
+---
+
+## ✍️ Citation
+
+If you find this work helpful, please consider citing it once the publication details are available.
+
+---
+
+## 🔑 Keywords
+
+Computer Vision · Deep Learning · Image Denoising · Wavelet Domain · Gradient Information · Attention Mechanisms  
+
+---
+
+## 🤝 Acknowledgments
+
+Thank you for your interest in **WGSANet**! Stay tuned for updates on the release of the code, datasets, and other resources.
