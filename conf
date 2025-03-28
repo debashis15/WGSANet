@@ -1,0 +1,25 @@
+#import packages
+import os
+
+#default number of epochs
+epochs= 300
+
+#default batch size for training
+batch_size= ''
+
+
+#path to generate the data
+genDataPath='./Set the path of your training dataset/'
+
+#path to save the genPatches
+save_dir='./trainingPatch will be saved here/'
+
+#path to training data
+data='./trainingPatch/provide name.npy'
+
+
+
+#variables required to generate patch
+pat_size=30
+stride=10
+step=0
